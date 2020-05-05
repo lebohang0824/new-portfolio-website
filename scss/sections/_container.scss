@@ -1,3 +1,4 @@
 .container {
    @include grid(25% auto, auto, 5px); 
+   background: url(../imgs/logo-bg.png) no-repeat center;
 }

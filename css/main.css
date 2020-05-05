@@ -23,6 +23,7 @@ b, strong {
   grid-gap: 5px;
   grid-template-rows: auto;
   grid-template-columns: 25% auto;
+  background: url(../imgs/logo-bg.png) no-repeat center;
 }
 
 .navbar {
