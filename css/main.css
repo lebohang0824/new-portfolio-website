@@ -58,8 +58,45 @@ b, strong {
   color: #2d545e;
 }
 
+.home-page {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.home-page .shaded {
+  background-color: #F9F8F7;
+}
+.home-page .info-container {
+  padding: 50px;
+}
+.home-page .info-container .heading {
+  color: #2d545e;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60;
+  font-size: 3.75rem;
+}
+.home-page .info-container .sub-heading {
+  color: #555;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 18;
+  font-size: 1.125rem;
+}
+.home-page .avatar-container {
+  padding: 50px;
+  text-align: center;
+}
+.home-page .avatar-container .avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
 .section {
-  padding: 5px 20%;
+  padding: 5px 15%;
   background-attachment: fixed;
   background: url(../imgs/logo-bg.png) no-repeat center;
 }

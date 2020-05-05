@@ -1,0 +1,31 @@
+.home-page {
+    @include grid(1fr 1fr, 1fr 1fr, 5px);
+    .shaded {
+        background-color: $lite;
+    }
+    .info-container {
+        padding: 50px;
+        .heading {
+            color: $primary;
+            font-weight: 600;
+            @include open-sans;
+            letter-spacing: 2px;
+            @include font-size(60);
+        }
+        .sub-heading {
+            color: #555;
+            @include raleway;
+            font-weight: 200;
+            letter-spacing: 2px;
+            @include font-size(18);
+        }
+    }    
+    .avatar-container {
+        padding: 50px;
+        text-align: center;
+        .avatar {
+            width: 200px;
+            border-radius: 50%;
+        }
+    }
+}
