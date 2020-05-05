@@ -18,4 +18,11 @@ b, strong {
   color: #2d545e;
 }
 
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto;
+  grid-template-columns: 25% auto;
+}
+
 /*# sourceMappingURL=main.css.map */
