@@ -15,7 +15,7 @@ a {
 }
 
 b, strong {
-  color: #2d545e;
+  color: #7d3cff;
 }
 
 .container {
@@ -151,12 +151,12 @@ b, strong {
   font-size: 1.125rem;
 }
 .about-page .button {
-  margin: 10px;
   width: 180px;
   color: #FFF;
   display: block;
   padding: 20px 0;
   font-weight: 600;
+  margin: 20px 10px;
   font-family: "Open Sans", sans-serif;
   border-radius: 5px;
   text-align: center;

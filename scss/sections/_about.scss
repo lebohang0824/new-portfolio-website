@@ -15,12 +15,12 @@
         @include font-size(18);
     }
     .button {
-        margin: 10px;
         width: 180px;
         color: #FFF;
         display: block;
         padding: 20px 0;
         font-weight: 600;
+        margin: 20px 10px;
         @include open-sans;
         border-radius: 5px;
         text-align: center;
