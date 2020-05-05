@@ -1,0 +1,28 @@
+.navbar {
+    height: 100vh;
+    padding: 10% 25%;
+    box-sizing: border-box;
+    background-color: $lite;
+    .nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                padding: 3px 0;
+                list-style-type: none;
+                a {
+                    color: #444;
+                    @include raleway;
+                    letter-spacing: 2px;
+                    @include font-size(13);
+                }
+            }
+            .active {
+                a {
+                    font-weight: 600;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

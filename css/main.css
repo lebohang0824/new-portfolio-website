@@ -25,4 +25,30 @@ b, strong {
   grid-template-columns: 25% auto;
 }
 
+.navbar {
+  height: 100vh;
+  padding: 10% 25%;
+  box-sizing: border-box;
+  background-color: #EEE;
+}
+.navbar .nav ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar .nav ul li {
+  padding: 3px 0;
+  list-style-type: none;
+}
+.navbar .nav ul li a {
+  color: #444;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  font-size: 13;
+  font-size: 0.8125rem;
+}
+.navbar .nav ul .active a {
+  font-weight: 600;
+  color: #2d545e;
+}
+
 /*# sourceMappingURL=main.css.map */
