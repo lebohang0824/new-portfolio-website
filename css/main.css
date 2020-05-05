@@ -76,6 +76,11 @@ b, strong {
 }
 .navbar .socials ul li:hover {
   background-color: #7d3cff;
+  -webkit-transition: background-color, 0.5s;
+  -moz-transition: background-color, 0.5s;
+  -ms-transition: background-color, 0.5s;
+  -o-transition: background-color, 0.5s;
+  transition: background-color, 0.5s;
 }
 .navbar .socials ul li a {
   color: #FFF;
