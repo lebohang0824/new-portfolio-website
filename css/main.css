@@ -126,4 +126,47 @@ b, strong {
   background: url(../imgs/logo-bg.png) no-repeat center;
 }
 
+.about-page {
+  box-sizing: border-box;
+}
+.about-page .heading {
+  color: #2d545e;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60;
+  font-size: 3.75rem;
+}
+.about-page .sub-heading {
+  color: #555;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 18;
+  font-size: 1.125rem;
+}
+.about-page .button {
+  margin: 10px;
+  width: 180px;
+  color: #FFF;
+  display: block;
+  padding: 20px 0;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  background-color: #7d3cff;
+}
+.about-page .button:hover {
+  background-color: rgba(125, 60, 255, 0.8);
+  -webkit-transition: background-color, 0.5s;
+  -moz-transition: background-color, 0.5s;
+  -ms-transition: background-color, 0.5s;
+  -o-transition: background-color, 0.5s;
+  transition: background-color, 0.5s;
+}
+
 /*# sourceMappingURL=main.css.map */

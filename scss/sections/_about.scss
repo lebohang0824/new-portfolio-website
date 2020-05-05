@@ -1,0 +1,35 @@
+.about-page {
+    box-sizing: border-box;
+    .heading {
+        color: $primary;
+        font-weight: 600;
+        @include open-sans;
+        letter-spacing: 2px;
+        @include font-size(60);
+    }
+    .sub-heading {
+        color: #555;
+        @include raleway;
+        font-weight: 200;
+        letter-spacing: 2px;
+        @include font-size(18);
+    }
+    .button {
+        margin: 10px;
+        width: 180px;
+        color: #FFF;
+        display: block;
+        padding: 20px 0;
+        font-weight: 600;
+        @include open-sans;
+        border-radius: 5px;
+        text-align: center;
+        @include font-size(15);
+        text-transform: uppercase;
+        background-color: $secondary;
+        &:hover {
+            @include transparent($secondary, .2);
+            @include transition(background-color, .5s);          
+        }
+    }
+}
