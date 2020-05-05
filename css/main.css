@@ -23,7 +23,6 @@ b, strong {
   grid-gap: 5px;
   grid-template-rows: auto;
   grid-template-columns: 25% auto;
-  background: url(../imgs/logo-bg.png) no-repeat center;
 }
 
 .navbar {
@@ -57,6 +56,12 @@ b, strong {
 .navbar .nav ul .active a {
   font-weight: 600;
   color: #2d545e;
+}
+
+.section {
+  padding: 5px 20%;
+  background-attachment: fixed;
+  background: url(../imgs/logo-bg.png) no-repeat center;
 }
 
 /*# sourceMappingURL=main.css.map */
