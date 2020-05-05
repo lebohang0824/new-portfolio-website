@@ -8,11 +8,11 @@
         @include font-size(60);
     }
     .sub-heading {
-        color: #555;
+        color: #333;
         @include raleway;
         font-weight: 200;
         letter-spacing: 2px;
-        @include font-size(18);
+        @include font-size(16);
     }
     .button {
         width: 180px;

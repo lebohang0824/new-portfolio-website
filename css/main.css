@@ -143,12 +143,12 @@ b, strong {
   font-size: 3.75rem;
 }
 .about-page .sub-heading {
-  color: #555;
+  color: #333;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
-  font-size: 18;
-  font-size: 1.125rem;
+  font-size: 16;
+  font-size: 1rem;
 }
 .about-page .button {
   width: 180px;
