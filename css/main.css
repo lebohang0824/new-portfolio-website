@@ -29,7 +29,11 @@ b, strong {
   height: 100vh;
   padding: 10% 25%;
   box-sizing: border-box;
-  background-color: #EEE;
+  background-color: #F9F8F7;
+}
+.navbar .logo img {
+  width: 40%;
+  padding: 50px 0px;
 }
 .navbar .nav ul {
   margin: 0;
@@ -45,6 +49,9 @@ b, strong {
   letter-spacing: 2px;
   font-size: 13;
   font-size: 0.8125rem;
+}
+.navbar .nav ul li a:hover {
+  text-decoration: underline;
 }
 .navbar .nav ul .active a {
   font-weight: 600;

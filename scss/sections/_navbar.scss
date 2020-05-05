@@ -3,6 +3,12 @@
     padding: 10% 25%;
     box-sizing: border-box;
     background-color: $lite;
+    .logo {
+        img {
+            width: 40%;
+            padding: 50px 0px;
+        }
+    }
     .nav {
         ul {
             margin: 0;
@@ -15,6 +21,9 @@
                     @include raleway;
                     letter-spacing: 2px;
                     @include font-size(13);
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
             .active {
