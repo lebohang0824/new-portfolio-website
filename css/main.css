@@ -15,7 +15,7 @@ a {
 }
 
 b, strong {
-  color: #7d3cff;
+  color: #2d545e;
 }
 
 .container {
@@ -172,6 +172,61 @@ b, strong {
   -ms-transition: background-color, 0.5s;
   -o-transition: background-color, 0.5s;
   transition: background-color, 0.5s;
+}
+
+.experience-page {
+  box-sizing: border-box;
+}
+.experience-page .heading {
+  color: #2d545e;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60;
+  font-size: 3.75rem;
+}
+.experience-page .sub-heading {
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 16;
+  font-size: 1rem;
+}
+.experience-page .cards {
+  padding-top: 35px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+.experience-page .cards .card {
+  color: #444;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 15;
+  font-size: 0.9375rem;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+.experience-page .cards .card .card-body {
+  padding: 20px;
+  min-height: 120px;
+}
+.experience-page .cards .card .card-body b, .experience-page .cards .card .card-body strong {
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 18;
+  font-size: 1.125rem;
+}
+.experience-page .cards .card .card-footer {
+  padding: 20px;
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13;
+  font-size: 0.8125rem;
+  background-color: #F9F8F7;
 }
 
 /*# sourceMappingURL=main.css.map */

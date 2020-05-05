@@ -1,0 +1,46 @@
+.experience-page {
+    box-sizing: border-box;
+    .heading {
+        color: $primary;
+        font-weight: 600;
+        @include open-sans;
+        letter-spacing: 2px;
+        @include font-size(60);
+    }
+    .sub-heading {
+        color: #333;
+        @include raleway;
+        font-weight: 200;
+        letter-spacing: 2px;
+        @include font-size(16);
+    }
+    .cards {
+        padding-top: 35px;
+        @include grid(1fr 1fr, auto, 20px);
+        .card {
+            color: #444;
+            @include raleway;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            @include font-size(15);
+            @include transparent(#FFF, .45);
+            .card-body {
+                padding: 20px;
+                min-height: 120px;
+                b, strong {
+                    display: block;
+                    border-radius: 4px;
+                    margin-bottom: 15px;
+                    @include font-size(18);
+                }
+            }
+            .card-footer {
+                padding: 20px;
+                text-align: right;
+                @include montserrat;
+                @include font-size(13);
+                background-color: $lite;
+            }
+        }
+    }
+}
