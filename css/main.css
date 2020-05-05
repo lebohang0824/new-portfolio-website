@@ -1,3 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Open+Sans:wght@300;600&family=Raleway:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+b, strong {
+  color: #2d545e;
+}
 
 /*# sourceMappingURL=main.css.map */
