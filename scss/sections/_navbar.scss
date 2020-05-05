@@ -34,4 +34,27 @@
             }
         }
     }
+    .socials {
+        padding: 10px 0;
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                width: 30px;
+                padding: 5px 0;
+                cursor: pointer;
+                list-style: none;
+                border-radius: 2px;
+                text-align: center;
+                display: inline-block;
+                background-color: $primary;
+                &:hover {
+                    background-color: $secondary;                    
+                }
+                a {
+                    color: #FFF;
+                }
+            }
+        }
+    }
 }

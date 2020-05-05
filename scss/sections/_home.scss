@@ -5,6 +5,7 @@
     }
     .info-container {
         padding: 50px;
+        box-sizing: border-box;
         .heading {
             color: $primary;
             font-weight: 600;
@@ -23,6 +24,7 @@
     .avatar-container {
         padding: 50px;
         text-align: center;
+        box-sizing: border-box;
         .avatar {
             width: 200px;
             border-radius: 50%;

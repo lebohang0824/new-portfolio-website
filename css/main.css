@@ -57,6 +57,29 @@ b, strong {
   font-weight: 600;
   color: #2d545e;
 }
+.navbar .socials {
+  padding: 10px 0;
+}
+.navbar .socials ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar .socials ul li {
+  width: 30px;
+  padding: 5px 0;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+  background-color: #2d545e;
+}
+.navbar .socials ul li:hover {
+  background-color: #7d3cff;
+}
+.navbar .socials ul li a {
+  color: #FFF;
+}
 
 .home-page {
   display: grid;
@@ -69,6 +92,7 @@ b, strong {
 }
 .home-page .info-container {
   padding: 50px;
+  box-sizing: border-box;
 }
 .home-page .info-container .heading {
   color: #2d545e;
@@ -89,6 +113,7 @@ b, strong {
 .home-page .avatar-container {
   padding: 50px;
   text-align: center;
+  box-sizing: border-box;
 }
 .home-page .avatar-container .avatar {
   width: 200px;
