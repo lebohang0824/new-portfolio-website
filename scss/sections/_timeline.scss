@@ -1,0 +1,68 @@
+.education-page {
+    box-sizing: border-box;
+    .heading {
+        color: $primary;
+        font-weight: 600;
+        @include open-sans;
+        letter-spacing: 2px;
+        @include font-size(60);
+    }
+    ul {
+        margin: 0;
+        padding-top: 50px;
+        li {
+            list-style: none;
+        }
+    }
+    .timeline {
+        padding: 3em 2em 2em;
+        position: relative;
+        color: rgba(black, .7);
+        border-left: 2px solid $primary;
+        
+        h1 {
+            color: $primary;
+            @include raleway;
+            font-weight: 700;
+            letter-spacing: 2px;
+            @include font-size(18);
+        }
+    
+        p {
+            @include montserrat;
+            @include font-size(14);
+        }
+        
+        &::before {
+            top: 1em;
+            left: 2em;
+            display: block;
+            color: $primary;
+            font-weight: 700;
+            position: absolute;
+            @include montserrat;
+            @include font-size(15);
+            content: attr(date-is);
+        }
+    
+        &::after {
+            top: 1em;
+            left: -7px;
+            width: 10px;
+            content: '';
+            height: 10px;
+            display: block;
+            position: absolute;
+            border-radius: 10px;
+            border: 2px solid $primary;
+        }
+    
+        &:last-child {
+            border-image: linear-gradient(
+                to bottom,
+                $primary 60%,
+                rgba($primary, 0)) 1 100%
+            ;
+        } 
+    }
+}

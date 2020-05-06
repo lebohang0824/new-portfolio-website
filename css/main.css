@@ -256,4 +256,68 @@ b, strong {
   background-color: #F9F8F7;
 }
 
+.education-page {
+  box-sizing: border-box;
+}
+.education-page .heading {
+  color: #2d545e;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60;
+  font-size: 3.75rem;
+}
+.education-page ul {
+  margin: 0;
+  padding-top: 50px;
+}
+.education-page ul li {
+  list-style: none;
+}
+.education-page .timeline {
+  padding: 3em 2em 2em;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  border-left: 2px solid #2d545e;
+}
+.education-page .timeline h1 {
+  color: #2d545e;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 18;
+  font-size: 1.125rem;
+}
+.education-page .timeline p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14;
+  font-size: 0.875rem;
+}
+.education-page .timeline::before {
+  top: 1em;
+  left: 2em;
+  display: block;
+  color: #2d545e;
+  font-weight: 700;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15;
+  font-size: 0.9375rem;
+  content: attr(date-is);
+}
+.education-page .timeline::after {
+  top: 1em;
+  left: -7px;
+  width: 10px;
+  content: "";
+  height: 10px;
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  border: 2px solid #2d545e;
+}
+.education-page .timeline:last-child {
+  border-image: linear-gradient(to bottom, #2d545e 60%, rgba(45, 84, 94, 0)) 1 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
