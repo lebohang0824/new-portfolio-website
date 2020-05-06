@@ -162,18 +162,20 @@ b, strong {
   margin-top: 5px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
-  text-decoration: underline;
+  font-size: 18;
+  font-size: 1.125rem;
 }
 .about-page .personality ul {
   margin: 5px;
   padding-left: 15px;
 }
 .about-page .personality ul li {
-  font-weight: 200;
+  color: #2d545e;
+  font-weight: 700;
   font-family: "Open Sans", sans-serif;
   list-style-type: disc;
-  font-size: 15;
-  font-size: 0.9375rem;
+  font-size: 13;
+  font-size: 0.8125rem;
 }
 .about-page .button {
   width: 180px;

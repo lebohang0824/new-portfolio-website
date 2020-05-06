@@ -19,17 +19,18 @@
         .sub-heading {
             margin-top: 5px;
             font-weight: 700;
-            @include open-sans;
-            text-decoration: underline;          
+            @include open-sans;         
+            @include font-size(18);         
         }
         ul {
             margin: 5px;
             padding-left: 15px;
             li {
-                font-weight: 200;
+                color: $primary;
+                font-weight: 700;
                 @include open-sans; 
                 list-style-type: disc;           
-                @include font-size(15);
+                @include font-size(13);
             }
         }
     }
