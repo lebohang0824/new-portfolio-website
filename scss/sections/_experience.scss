@@ -40,6 +40,9 @@
                 @include montserrat;
                 @include font-size(13);
                 background-color: $lite;
+                b, strong {
+                    color: $secondary;
+                }
             }
         }
     }

@@ -75,7 +75,7 @@ b, strong {
   background-color: #2d545e;
 }
 .navbar .socials ul li:hover {
-  background-color: #7d3cff;
+  background-color: #F39C12;
   -webkit-transition: background-color, 0.5s;
   -moz-transition: background-color, 0.5s;
   -ms-transition: background-color, 0.5s;
@@ -170,12 +170,16 @@ b, strong {
   padding-left: 15px;
 }
 .about-page .personality ul li {
+  display: inline;
   color: #2d545e;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   list-style-type: disc;
   font-size: 13;
   font-size: 0.8125rem;
+}
+.about-page .personality ul li b {
+  color: #F39C12;
 }
 .about-page .button {
   width: 180px;
@@ -190,10 +194,10 @@ b, strong {
   font-size: 15;
   font-size: 0.9375rem;
   text-transform: uppercase;
-  background-color: #7d3cff;
+  background-color: #F39C12;
 }
 .about-page .button:hover {
-  background-color: rgba(125, 60, 255, 0.8);
+  background-color: rgba(243, 156, 18, 0.8);
   -webkit-transition: background-color, 0.5s;
   -moz-transition: background-color, 0.5s;
   -ms-transition: background-color, 0.5s;
@@ -255,6 +259,9 @@ b, strong {
   font-size: 0.8125rem;
   background-color: #F9F8F7;
 }
+.experience-page .cards .card .card-footer b, .experience-page .cards .card .card-footer strong {
+  color: #F39C12;
+}
 
 .education-page {
   box-sizing: border-box;
@@ -281,12 +288,12 @@ b, strong {
   border-left: 2px solid #2d545e;
 }
 .education-page .timeline h1 {
-  color: #2d545e;
+  color: #F39C12;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
-  font-size: 18;
-  font-size: 1.125rem;
+  font-size: 14;
+  font-size: 0.875rem;
 }
 .education-page .timeline p {
   font-family: "Montserrat", sans-serif;
@@ -307,14 +314,14 @@ b, strong {
 }
 .education-page .timeline::after {
   top: 1em;
-  left: -7px;
+  left: -6px;
   width: 10px;
   content: "";
   height: 10px;
   display: block;
   position: absolute;
   border-radius: 10px;
-  border: 2px solid #2d545e;
+  background-color: #2d545e;
 }
 .education-page .timeline:last-child {
   border-image: linear-gradient(to bottom, #2d545e 60%, rgba(45, 84, 94, 0)) 1 100%;

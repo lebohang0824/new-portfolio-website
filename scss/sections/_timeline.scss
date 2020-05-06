@@ -21,11 +21,11 @@
         border-left: 2px solid $primary;
         
         h1 {
-            color: $primary;
+            color: $secondary;
             @include raleway;
             font-weight: 700;
             letter-spacing: 2px;
-            @include font-size(18);
+            @include font-size(14);
         }
     
         p {
@@ -47,14 +47,14 @@
     
         &::after {
             top: 1em;
-            left: -7px;
+            left: -6px;
             width: 10px;
             content: '';
             height: 10px;
             display: block;
             position: absolute;
             border-radius: 10px;
-            border: 2px solid $primary;
+            background-color: $primary;
         }
     
         &:last-child {

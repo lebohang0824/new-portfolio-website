@@ -26,11 +26,15 @@
             margin: 5px;
             padding-left: 15px;
             li {
+                display: inline;
                 color: $primary;
                 font-weight: 700;
                 @include open-sans; 
                 list-style-type: disc;           
                 @include font-size(13);
+                b {
+                    color: $secondary;
+                }
             }
         }
     }
