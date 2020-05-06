@@ -1,7 +1,12 @@
+.home {
+    background: url(../imgs/bg-me.png) no-repeat center !important;
+    background-attachment: fixed;
+}
+
 .home-page {
     @include grid(1fr 1fr, 1fr 1fr, 5px);
     .shaded {
-        background-color: $lite;
+        @include transparent($primary, .9);
     }
     .info-container {
         padding: 50px;
