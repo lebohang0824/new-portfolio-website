@@ -29,7 +29,7 @@ b, strong {
   height: 100vh;
   padding: 10% 25%;
   box-sizing: border-box;
-  background-color: #F9F8F7;
+  background-color: #F0F0F0;
 }
 .navbar .logo img {
   width: 40%;
@@ -119,6 +119,9 @@ b, strong {
   letter-spacing: 2px;
   font-size: 18;
   font-size: 1.125rem;
+}
+.home-page .info-container .sub-heading b, .home-page .info-container .sub-heading strong {
+  color: #FF6F00;
 }
 .home-page .avatar-container {
   padding: 50px;
@@ -257,7 +260,7 @@ b, strong {
   font-family: "Montserrat", sans-serif;
   font-size: 13;
   font-size: 0.8125rem;
-  background-color: #F9F8F7;
+  background-color: #F0F0F0;
 }
 .experience-page .cards .card .card-footer b, .experience-page .cards .card .card-footer strong {
   color: #FF6F00;

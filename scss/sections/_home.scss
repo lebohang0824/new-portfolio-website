@@ -24,6 +24,9 @@
             font-weight: 200;
             letter-spacing: 2px;
             @include font-size(18);
+            b, strong {
+                color: $secondary;
+            }
         }
     }    
     .avatar-container {
