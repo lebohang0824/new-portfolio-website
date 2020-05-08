@@ -75,7 +75,7 @@ b, strong {
   background-color: #2d545e;
 }
 .navbar .socials ul li:hover {
-  background-color: #F39C12;
+  background-color: #F1C40F;
   -webkit-transition: background-color, 0.5s;
   -moz-transition: background-color, 0.5s;
   -ms-transition: background-color, 0.5s;
@@ -179,7 +179,7 @@ b, strong {
   font-size: 0.8125rem;
 }
 .about-page .personality ul li b {
-  color: #F39C12;
+  color: #F1C40F;
 }
 .about-page .button {
   width: 180px;
@@ -194,10 +194,10 @@ b, strong {
   font-size: 15;
   font-size: 0.9375rem;
   text-transform: uppercase;
-  background-color: #F39C12;
+  background-color: #F1C40F;
 }
 .about-page .button:hover {
-  background-color: rgba(243, 156, 18, 0.8);
+  background-color: rgba(241, 196, 15, 0.8);
   -webkit-transition: background-color, 0.5s;
   -moz-transition: background-color, 0.5s;
   -ms-transition: background-color, 0.5s;
@@ -260,7 +260,7 @@ b, strong {
   background-color: #F9F8F7;
 }
 .experience-page .cards .card .card-footer b, .experience-page .cards .card .card-footer strong {
-  color: #F39C12;
+  color: #F1C40F;
 }
 
 .education-page {
@@ -288,7 +288,7 @@ b, strong {
   border-left: 2px solid #2d545e;
 }
 .education-page .timeline h1 {
-  color: #F39C12;
+  color: #F1C40F;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
