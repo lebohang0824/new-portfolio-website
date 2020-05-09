@@ -53,6 +53,11 @@ b, strong {
 .navbar .nav ul li a:hover {
   color: #FF6F00;
   text-decoration: underline;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
 }
 .navbar .nav ul .active a {
   font-weight: 600;
