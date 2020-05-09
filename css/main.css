@@ -51,6 +51,7 @@ b, strong {
   font-size: 0.8125rem;
 }
 .navbar .nav ul li a:hover {
+  color: #FF6F00;
   text-decoration: underline;
 }
 .navbar .nav ul .active a {

@@ -22,6 +22,7 @@
                     letter-spacing: 2px;
                     @include font-size(13);
                     &:hover {
+                        color: $secondary;
                         text-decoration: underline;
                     }
                 }
