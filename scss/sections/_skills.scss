@@ -1,0 +1,10 @@
+.skills-page {
+    box-sizing: border-box;
+    .heading {
+        color: $primary;
+        font-weight: 600;
+        @include open-sans;
+        letter-spacing: 2px;
+        @include font-size(60);
+    }
+}

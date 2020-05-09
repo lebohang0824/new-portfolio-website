@@ -330,4 +330,16 @@ b, strong {
   border-image: linear-gradient(to bottom, #2d545e 60%, rgba(45, 84, 94, 0)) 1 100%;
 }
 
+.skills-page {
+  box-sizing: border-box;
+}
+.skills-page .heading {
+  color: #2d545e;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60;
+  font-size: 3.75rem;
+}
+
 /*# sourceMappingURL=main.css.map */
