@@ -7,4 +7,35 @@
         letter-spacing: 2px;
         @include font-size(60);
     }
+    .skills-type {
+        margin-top: 20px;
+        @include open-sans;
+        @include grid(1fr 1fr 1fr, auto, 10px);
+        div {
+            border-radius: 2px;
+            padding: 15px 20px;
+            @include transparent(#FFF, 0.4);
+            @include shadow(0 1px 2px 0 rgba(0, 0, 0, 0.19), 0 1px 4px 0 rgba(0, 0, 0, 0.01))
+        }
+        h1 {
+            color: $primary;
+            font-weight: 600;
+            @include font-size(25);
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                margin-top: 4px;
+                @include montserrat;
+                list-style-type: none;
+                @include font-size(14);
+                color: rgba(black, .7);
+                b {
+                    color: $secondary;
+                    @include font-size(13);
+                }
+            }
+        } 
+    }
 }
