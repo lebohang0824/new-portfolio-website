@@ -146,6 +146,7 @@ b, strong {
 
 .about-page {
   box-sizing: border-box;
+  background: url(../imgs/bg-me2.png) no-repeat center !important;
 }
 .about-page .heading {
   color: #2d545e;
@@ -351,6 +352,7 @@ b, strong {
 
 .skills-page {
   box-sizing: border-box;
+  background: url(../imgs/bg-me2.png) no-repeat center !important;
 }
 .skills-page .heading {
   color: #2d545e;
