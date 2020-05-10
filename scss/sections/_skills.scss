@@ -18,8 +18,8 @@
             @include shadow(0 1px 2px 0 rgba(0, 0, 0, 0.19), 0 1px 4px 0 rgba(0, 0, 0, 0.01))
         }
         h1 {
-            color: $primary;
             font-weight: 600;
+            color: $secondary;
             @include font-size(25);
         }
         ul {
@@ -27,10 +27,11 @@
             padding: 0;
             li {
                 margin-top: 4px;
-                @include montserrat;
+                color: $primary;
+                font-weight: 700;
+                @include open-sans;
+                @include font-size(16);
                 list-style-type: none;
-                @include font-size(14);
-                color: rgba(black, .7);
                 b {
                     color: $secondary;
                     @include font-size(13);

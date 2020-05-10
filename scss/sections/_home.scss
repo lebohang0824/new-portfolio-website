@@ -19,11 +19,10 @@
             @include font-size(60);
         }
         .sub-heading {
-            color: #555;
-            @include raleway;
-            font-weight: 200;
-            letter-spacing: 2px;
-            @include font-size(18);
+            color: $primary;
+            font-weight: 700;
+            @include open-sans;
+            @include font-size(16);
             b, strong {
                 color: $secondary;
             }

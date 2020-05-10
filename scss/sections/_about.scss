@@ -8,10 +8,9 @@
         @include font-size(60);
     }
     .sub-heading {
-        color: #333;
-        @include raleway;
-        font-weight: 200;
-        letter-spacing: 2px;
+        color: $primary;
+        font-weight: 700;
+        @include open-sans;
         @include font-size(16);
     }
     .personality {
@@ -20,7 +19,7 @@
             margin-top: 5px;
             font-weight: 700;
             @include open-sans;         
-            @include font-size(18);         
+            @include font-size(30);         
         }
         ul {
             margin: 5px;
@@ -31,7 +30,7 @@
                 font-weight: 700;
                 @include open-sans; 
                 list-style-type: disc;           
-                @include font-size(13);
+                @include font-size(16);
                 b {
                     color: $secondary;
                 }

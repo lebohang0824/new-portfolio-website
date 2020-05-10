@@ -17,20 +17,24 @@
     .timeline {
         padding: 3em 2em 2em;
         position: relative;
-        color: rgba(black, .7);
         border-left: 2px solid $primary;
         
         h1 {
-            color: $secondary;
-            @include raleway;
             font-weight: 700;
-            letter-spacing: 2px;
-            @include font-size(14);
+            color: $secondary;
+            @include open-sans;
+            @include font-size(25);
         }
     
         p {
-            @include montserrat;
-            @include font-size(14);
+            color: $primary;
+            font-weight: 700;
+            @include open-sans;
+            @include font-size(16);
+            b {
+                color: #999;
+                @include font-size(14);
+            }
         }
         
         &::before {
@@ -40,8 +44,8 @@
             color: $primary;
             font-weight: 700;
             position: absolute;
-            @include montserrat;
-            @include font-size(15);
+            @include open-sans;
+            @include font-size(16);
             content: attr(date-is);
         }
     

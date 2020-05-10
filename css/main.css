@@ -119,12 +119,11 @@ b, strong {
   font-size: 3.75rem;
 }
 .home-page .info-container .sub-heading {
-  color: #555;
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  letter-spacing: 2px;
-  font-size: 18;
-  font-size: 1.125rem;
+  color: #2d545e;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16;
+  font-size: 1rem;
 }
 .home-page .info-container .sub-heading b, .home-page .info-container .sub-heading strong {
   color: #FF6F00;
@@ -157,10 +156,9 @@ b, strong {
   font-size: 3.75rem;
 }
 .about-page .sub-heading {
-  color: #333;
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  letter-spacing: 2px;
+  color: #2d545e;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
   font-size: 16;
   font-size: 1rem;
 }
@@ -171,8 +169,8 @@ b, strong {
   margin-top: 5px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
-  font-size: 18;
-  font-size: 1.125rem;
+  font-size: 30;
+  font-size: 1.875rem;
 }
 .about-page .personality ul {
   margin: 5px;
@@ -184,8 +182,8 @@ b, strong {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   list-style-type: disc;
-  font-size: 13;
-  font-size: 0.8125rem;
+  font-size: 16;
+  font-size: 1rem;
 }
 .about-page .personality ul li b {
   color: #FF6F00;
@@ -239,18 +237,22 @@ b, strong {
 .experience-page .cards .card {
   color: #444;
   font-family: "Raleway", sans-serif;
-  letter-spacing: 1px;
   border-radius: 5px;
   font-size: 15;
   font-size: 0.9375rem;
   background-color: rgba(255, 255, 255, 0.55);
 }
 .experience-page .cards .card .card-body {
-  padding: 0px;
+  color: #2d545e;
+  font-weight: 700;
   min-height: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16;
+  font-size: 1rem;
 }
 .experience-page .cards .card .card-body strong {
   color: #FF6F00;
+  letter-spacing: 1px;
   font-size: 18;
   font-size: 1.125rem;
 }
@@ -258,7 +260,7 @@ b, strong {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
-  background-color: #F0F0F0;
+  background-color: #F9F9F9;
   display: grid;
   grid-gap: 0px;
   grid-template-rows: auto;
@@ -292,19 +294,24 @@ b, strong {
 .education-page .timeline {
   padding: 3em 2em 2em;
   position: relative;
-  color: rgba(0, 0, 0, 0.7);
   border-left: 2px solid #2d545e;
 }
 .education-page .timeline h1 {
-  color: #FF6F00;
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 14;
-  font-size: 0.875rem;
+  color: #FF6F00;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25;
+  font-size: 1.5625rem;
 }
 .education-page .timeline p {
-  font-family: "Montserrat", sans-serif;
+  color: #2d545e;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16;
+  font-size: 1rem;
+}
+.education-page .timeline p b {
+  color: #999;
   font-size: 14;
   font-size: 0.875rem;
 }
@@ -315,9 +322,9 @@ b, strong {
   color: #2d545e;
   font-weight: 700;
   position: absolute;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15;
-  font-size: 0.9375rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16;
+  font-size: 1rem;
   content: attr(date-is);
 }
 .education-page .timeline::after {
@@ -363,8 +370,8 @@ b, strong {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.19), 0 1px 4px 0 rgba(0, 0, 0, 0.01);
 }
 .skills-page .skills-type h1 {
-  color: #2d545e;
   font-weight: 600;
+  color: #FF6F00;
   font-size: 25;
   font-size: 1.5625rem;
 }
@@ -374,11 +381,12 @@ b, strong {
 }
 .skills-page .skills-type ul li {
   margin-top: 4px;
-  font-family: "Montserrat", sans-serif;
+  color: #2d545e;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16;
+  font-size: 1rem;
   list-style-type: none;
-  font-size: 14;
-  font-size: 0.875rem;
-  color: rgba(0, 0, 0, 0.7);
 }
 .skills-page .skills-type ul li b {
   color: #FF6F00;

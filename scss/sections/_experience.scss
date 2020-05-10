@@ -19,22 +19,25 @@
         .card {
             color: #444;
             @include raleway;
-            letter-spacing: 1px;
             border-radius: 5px;
             @include font-size(15);
             @include transparent(#FFF, .45);
             .card-body {
-                padding: 0px;
+                color: $primary;
+                font-weight: 700;
                 min-height: 120px;
+                @include open-sans;
+                @include font-size(16);
                 strong {
                     color: $secondary;
+                    letter-spacing: 1px;
                     @include font-size(18);
                 }
                 .header {
                     padding: 10px;
                     border-radius: 4px;
                     margin-bottom: 15px;
-                    background-color: $lite;
+                    background-color: #F9F9F9;
                     @include grid(1fr 1fr, auto, 0px);
                     div {
                         color: $primary;
