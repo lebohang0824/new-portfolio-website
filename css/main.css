@@ -235,10 +235,6 @@ b, strong {
 }
 .experience-page .cards {
   padding-top: 35px;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
 }
 .experience-page .cards .card {
   color: #444;
@@ -250,26 +246,29 @@ b, strong {
   background-color: rgba(255, 255, 255, 0.55);
 }
 .experience-page .cards .card .card-body {
-  padding: 20px;
+  padding: 0px;
   min-height: 120px;
 }
-.experience-page .cards .card .card-body b, .experience-page .cards .card .card-body strong {
-  display: block;
-  border-radius: 4px;
-  margin-bottom: 15px;
+.experience-page .cards .card .card-body strong {
+  color: #FF6F00;
   font-size: 18;
   font-size: 1.125rem;
 }
-.experience-page .cards .card .card-footer {
-  padding: 20px;
-  text-align: right;
-  font-family: "Montserrat", sans-serif;
-  font-size: 13;
-  font-size: 0.8125rem;
+.experience-page .cards .card .card-body .header {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
   background-color: #F0F0F0;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
 }
-.experience-page .cards .card .card-footer b, .experience-page .cards .card .card-footer strong {
-  color: #FF6F00;
+.experience-page .cards .card .card-body .header div {
+  color: #2d545e;
+  font-weight: 700;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
 }
 
 .education-page {

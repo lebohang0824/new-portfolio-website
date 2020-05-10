@@ -16,7 +16,6 @@
     }
     .cards {
         padding-top: 35px;
-        @include grid(1fr 1fr, auto, 20px);
         .card {
             color: #444;
             @include raleway;
@@ -25,23 +24,24 @@
             @include font-size(15);
             @include transparent(#FFF, .45);
             .card-body {
-                padding: 20px;
+                padding: 0px;
                 min-height: 120px;
-                b, strong {
-                    display: block;
-                    border-radius: 4px;
-                    margin-bottom: 15px;
+                strong {
+                    color: $secondary;
                     @include font-size(18);
                 }
-            }
-            .card-footer {
-                padding: 20px;
-                text-align: right;
-                @include montserrat;
-                @include font-size(13);
-                background-color: $lite;
-                b, strong {
-                    color: $secondary;
+                .header {
+                    padding: 10px;
+                    border-radius: 4px;
+                    margin-bottom: 15px;
+                    background-color: $lite;
+                    @include grid(1fr 1fr, auto, 0px);
+                    div {
+                        color: $primary;
+                        font-weight: 700;
+                        text-align: right;
+                        @include open-sans;
+                    }
                 }
             }
         }
