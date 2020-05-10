@@ -157,7 +157,6 @@ b, strong {
 }
 .about-page .sub-heading {
   color: #2d545e;
-  font-weight: 700;
   font-family: "Open Sans", sans-serif;
   font-size: 16;
   font-size: 1rem;
@@ -179,7 +178,6 @@ b, strong {
 .about-page .personality ul li {
   display: inline;
   color: #2d545e;
-  font-weight: 700;
   font-family: "Open Sans", sans-serif;
   list-style-type: disc;
   font-size: 16;
@@ -244,7 +242,6 @@ b, strong {
 }
 .experience-page .cards .card .card-body {
   color: #2d545e;
-  font-weight: 700;
   min-height: 120px;
   font-family: "Open Sans", sans-serif;
   font-size: 16;
@@ -305,7 +302,6 @@ b, strong {
 }
 .education-page .timeline p {
   color: #2d545e;
-  font-weight: 700;
   font-family: "Open Sans", sans-serif;
   font-size: 16;
   font-size: 1rem;
@@ -382,7 +378,6 @@ b, strong {
 .skills-page .skills-type ul li {
   margin-top: 4px;
   color: #2d545e;
-  font-weight: 700;
   font-family: "Open Sans", sans-serif;
   font-size: 16;
   font-size: 1rem;

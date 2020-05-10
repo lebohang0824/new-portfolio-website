@@ -28,7 +28,6 @@
     
         p {
             color: $primary;
-            font-weight: 700;
             @include open-sans;
             @include font-size(16);
             b {

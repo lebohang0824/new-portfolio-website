@@ -24,7 +24,6 @@
             @include transparent(#FFF, .45);
             .card-body {
                 color: $primary;
-                font-weight: 700;
                 min-height: 120px;
                 @include open-sans;
                 @include font-size(16);

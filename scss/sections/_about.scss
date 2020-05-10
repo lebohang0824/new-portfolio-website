@@ -9,7 +9,6 @@
     }
     .sub-heading {
         color: $primary;
-        font-weight: 700;
         @include open-sans;
         @include font-size(16);
     }
@@ -27,7 +26,6 @@
             li {
                 display: inline;
                 color: $primary;
-                font-weight: 700;
                 @include open-sans; 
                 list-style-type: disc;           
                 @include font-size(16);
