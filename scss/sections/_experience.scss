@@ -22,6 +22,14 @@
             border-radius: 5px;
             @include font-size(15);
             @include transparent(#FFF, .45);
+            @include grid(.5fr 4fr, auto, 0px);
+            .card-logo {
+                padding: 0 10px;
+                img {
+                    height: auto;
+                    width: 100%;
+                }
+            }
             .card-body {
                 color: $primary;
                 min-height: 120px;
