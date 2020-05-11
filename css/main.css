@@ -402,4 +402,51 @@ b, strong {
   font-size: 0.8125rem;
 }
 
+.portfolio-page {
+  box-sizing: border-box;
+}
+.portfolio-page .heading {
+  color: #2d545e;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60;
+  font-size: 3.75rem;
+}
+.portfolio-page .projects {
+  padding-top: 20px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.portfolio-page .projects img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.portfolio-page .projects a {
+  position: relative;
+}
+.portfolio-page .projects a span {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #2d545e;
+  font-weight: 700;
+  padding-top: 45%;
+  text-align: center;
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.portfolio-page .projects a:hover span {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 /*# sourceMappingURL=main.css.map */
